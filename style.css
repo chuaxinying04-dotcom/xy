@@ -102,14 +102,13 @@ main > section { padding-inline: max(1.5rem, calc((100% - var(--max)) / 2)); }
 .when { margin-bottom: 0.15rem; font-size: 0.9rem; font-weight: 500; color: var(--muted); }
 .timeline p:last-child { margin-bottom: 0; }
 
-/* ---------- Projects table ---------- */
-.projects { width: 100%; border-collapse: collapse; }
-.projects th, .projects td { padding: 1rem 1rem 1rem 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--grey-line); }
-.projects thead th { font-size: 0.9rem; font-weight: 500; color: var(--muted); border-bottom: 2px solid var(--ink); }
-.projects tbody th { font-weight: 600; white-space: nowrap; }
-.projects td:last-child { color: var(--muted); white-space: nowrap; padding-right: 0; }
-.projects a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: 4px; }
-.projects a:hover { color: var(--accent); }
+/* ---------- Lists ---------- */
+.org { margin-bottom: 0.5rem; color: var(--muted); font-weight: 500; }
+.bullets { margin: 0 0 0.25rem; padding-left: 1.1rem; max-width: 62ch; }
+.bullets li { margin-bottom: 0.3rem; }
+.roles { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.roles li { padding: 1rem 0; border-bottom: 1px solid var(--grey-line); }
+.roles p { margin: 0.2rem 0 0; color: var(--muted); }
 
 /* ---------- Skills ---------- */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
@@ -132,11 +131,6 @@ main > section { padding-inline: max(1.5rem, calc((100% - var(--max)) / 2)); }
   .ledger dl { grid-template-columns: repeat(2, 1fr); }
   .two-col { grid-template-columns: 1fr; gap: 2rem; }
   .section { padding-block: 3rem; }
-  /* Stack the projects table on small screens */
-  .projects thead { position: absolute; left: -9999px; }
-  .projects tr { display: block; padding: 1rem 0; border-bottom: 1px solid var(--grey-line); }
-  .projects th, .projects td { display: block; padding: 0; border: 0; white-space: normal !important; }
-  .projects td { margin-top: 0.25rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
