@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Finance Portfolio</title>
+  <meta name="description" content="Financial analyst portfolio: experience, projects, skills and contact details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#top">Your Name</a>
+  <nav aria-label="Main">
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I turn financial data into clear decisions.</h1>
+      <p class="lead">Financial analyst focused on forecasting, risk and foreign exchange. I build models that finance teams can trust and explain.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projects">View my projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <figure class="hero-chart">
+      <svg viewBox="0 0 520 320" role="img" aria-label="Line chart showing steady growth over time">
+        <g class="grid">
+          <line x1="40" y1="40"  x2="500" y2="40"/>
+          <line x1="40" y1="110" x2="500" y2="110"/>
+          <line x1="40" y1="180" x2="500" y2="180"/>
+          <line x1="40" y1="250" x2="500" y2="250"/>
+        </g>
+        <path class="area" d="M40 230 L100 214 L160 222 L220 180 L280 190 L340 140 L400 118 L460 76 L500 62 L500 250 L40 250 Z"/>
+        <path class="line" d="M40 230 L100 214 L160 222 L220 180 L280 190 L340 140 L400 118 L460 76 L500 62" pathLength="1"/>
+        <circle class="dot" cx="500" cy="62" r="6"/>
+        <g class="axis-text">
+          <text x="40"  y="278">Q1</text>
+          <text x="170" y="278">Q2</text>
+          <text x="300" y="278">Q3</text>
+          <text x="430" y="278">Q4</text>
+        </g>
+      </svg>
+      <figcaption>Sample chart. Replace with your own data or an image.</figcaption>
+    </figure>
+  </section>
+
+  <!-- Key figures -->
+  <section class="ledger" aria-label="Key figures">
+    <dl>
+      <div><dt>Years in finance</dt><dd>4</dd></div>
+      <div><dt>Models built</dt><dd>25+</dd></div>
+      <div><dt>Forecast accuracy</dt><dd>94%</dd></div>
+      <div><dt>Reports delivered</dt><dd>120</dd></div>
+    </dl>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">2024 to present</p>
+        <h3>Financial Analyst, Company Name</h3>
+        <p>Own the monthly forecast and variance reporting for a RM 50m portfolio. Cut month-end close time by two days by automating reconciliations.</p>
+      </li>
+      <li>
+        <p class="when">2022 to 2024</p>
+        <h3>Junior Analyst, Company Name</h3>
+        <p>Prepared FX exposure reports and supported treasury with hedging analysis across three currencies.</p>
+      </li>
+      <li>
+        <p class="when">2018 to 2022</p>
+        <h3>BA Finance, University Name</h3>
+        <p>Graduated with honours. Thesis on interest rate risk in small banks.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <table class="projects">
+      <thead>
+        <tr><th scope="col">Project</th><th scope="col">What it does</th><th scope="col">Tools</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><a href="#">FX Exposure Dashboard</a></th>
+          <td>Tracks currency exposure by business unit and flags positions that breach risk limits.</td>
+          <td>Excel, Power BI</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="#">Cash Flow Forecast Model</a></th>
+          <td>13-week rolling forecast with best, base and worst case scenarios.</td>
+          <td>Excel, Python</td>
+        </tr>
+        <tr>
+          <th scope="row"><a href="#">Loan Portfolio Review</a></th>
+          <td>Segments loans by credit quality and estimates expected losses.</td>
+          <td>SQL, Tableau</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills and credentials</h2>
+    <div class="two-col">
+      <div>
+        <h3>Technical</h3>
+        <ul class="plain">
+          <li>Financial modelling and valuation</li>
+          <li>Forecasting and variance analysis</li>
+          <li>Foreign exchange and risk management</li>
+          <li>Excel, SQL, Python, Power BI</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Certifications</h3>
+        <ul class="plain">
+          <li>Certification name, Issuer (year)</li>
+          <li>Certification name, Issuer (year)</li>
+          <li>In progress: Certification name</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Open to analyst roles and consulting projects. The quickest way to reach me is by email.</p>
+    <p><a class="btn btn-primary" href="mailto:you@example.com">you@example.com</a></p>
+    <p class="links"><a href="https://www.linkedin.com/">LinkedIn</a> <a href="https://github.com/">GitHub</a></p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
